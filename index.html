@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS CDN from getBootstrap.com -->  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Logo and Title Section for Website  -->
+
+    <nav class="navbar bg-success text-white p-3 my-3">
+
+        <div class="container">
+
+        <div>
+
+            <img  src="dogdoctor.png" width="200" height="290">
+
+        </div>
+
+      
+
+        <div class="">
+
+            <h1>Welcome to Doggy Day Care</h1>
+            <p> Come one! Come all! Checkup? Injury? No worries! Quality pet care and those funny neck cones, too. 
+                 </p>
+            
+        </div>
+
+        </div>
+
+        </div>  
+
+
+    </nav>
+
+
+
+    <!-- About us  -->
+    <div class="p-1 my-1 border border-success bg-light">
+        <h1>Who we are:</h1>
+
+        <p class="p-4 my-3" style="font-size: 25px;">We are Ontario's Number One  Most Trusted Pet Clinic. </p>
+
+        <p class="p-4 my-3" style="font-size: 25px;">We offer services to animals ranges from the smallest of creatures to the largest of animals. </p>
+
+    </div>
+
+
+    <!-- 5 service Cards -->
+
+    <div class="card-group"> 
+
+        <div class="card border-success  mb-3" style="max-width: 18rem;">
+            
+            <div class="card-body text-success">
+              <h5 class="card-title">Service 1: Checkup</h5>
+              <p class="card-text">A simple check to monitor the health and progress of your pet!.</p>
+            </div>
+          </div>
+
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+            
+            <div class="card-body text-success">
+              <h5 class="card-title">Service 2: Denstisty</h5>
+              <p class="card-text">Time to whiten your pets teeth!.</p>
+            </div>
+          </div>
+
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+            
+            <div class="card-body text-success">
+              <h5 class="card-title">Service 3: Surgery</h5>
+              <p class="card-text">Surgeries can range from simple incisions to complex operations.</p>
+            </div>
+          </div>
+
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+            
+            <div class="card-body text-success">
+              <h5 class="card-title">Service 4: Therapy/Coaching</h5>
+              <p class="card-text">Our trained professionals can assist your pets physical and mental health.</p>
+            </div>
+          </div>
+
+
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+            
+            <div class="card-body text-success">
+              <h5 class="card-title">Service 5: BabySitting</h5>
+              <p class="card-text">Our state of the art facilties let animals thrive in enivroments natural to them </p>
+            </div>
+          </div>
+        
+
+        
+
+
+    </div>
+
+    <!-- 3 experts -->
+
+    <div class="p-4 my-4 border border-success bg-success">
+       
+        <div class="row justify-content-around">
+            <div class="card" style="width: 15rem;">
+                <img src="ryan.jpg" class="card-img-top" >
+                <div class="card-body">
+                    <p class="card-text">Dr Reynolds specializes in animal Denstisty and always leaves his patients with a bright smile!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="d2.jpg" class="card-img-top" >
+                <div class="card-body">
+                    <p class="card-text">Dr Schrute is Canada's leading animal surgeon</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 15rem;">
+                <img src="d4.jpg" class="card-img-top" >
+                <div class="card-body">
+                    <p class="card-text">Dwyane Johnson specializes in animal's physical activity and mental health</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Register-->
+
+    <div class="container"> 
+
+    <form>
+
+        <div class="form-group">
+
+            <label>Enter Email</label>
+            <input type="email" class="form-control" placeholder="input emails">
+        </div>
+
+        <div class="form-group">
+            <label>Select Service</label>
+            <select class="form-control" id="serviceSelect">
+                <option value="">Checkup</option>
+                <option value="">Denstisty</option>
+                <option value="">Surgery</option>
+                <option value="">Therapy/Coaching</option>
+                <option value="">BabySitting</option>
+            </select>
+        </div>
+
+        
+        <br>
+
+
+        <div class="form-group">
+
+            <label>Pick Date</label>
+            <input type="datetime-local" id="desiredDate" name="desiredDate">
+        </div>
+
+    </form>
+
+    </div>
+
+
+
+    <!-- Address-->
+
+    <br>
+
+    <div class="container">
+
+        <h2>Contact us!</h2>
+
+        <p>Email us: DoggyDayClinic@animalcar.com</p>
+
+        <p>Address: 342 RainbowRoad Dr</p>
+
+        <p>Phone Number: 123-456-78910</p>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+    <!-- JS Bundle CDN from getBootstrap.com --> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+
+
+
+</html>
